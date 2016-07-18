@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ebookMailer</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script>
+        function toMain(){
+            window.location = "main";
+        }
+    </script>
+</head>
+<body>
+<h1 class="title_box_red">Sign in using your account with:</h1>
+<div id="widget" class="widget">
+    <div id="view">
+        <div style="display: block; ">
+            <div id="pages" style="top: 31px; ">
+                    <ul class="providers">
+                        <li id="yahoo" class="on" onclick="toMain()"></li>
+                        <li id="google" class="on" onclick="toMain()"></li>
+                    </ul>
+                    <ul class="providers col2">
+                        <li id="facebook" class="on" onclick="toMain()"></li>
+                        <li id="twitter" class="on" onclick="toMain()"></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
